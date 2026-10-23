@@ -1,0 +1,44 @@
+# Сборка
+build/
+out/
+bin/
+obj/
+_deps/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.o
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.lib
+*.a
+*.so
+*.dll
+MegaRace
+MegaRace.exe
+
+# Visual Studio
+.vs/
+*.user
+*.sln
+*.vcxproj*
+CMakeSettings.json
+
+# Другие редакторы
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+
+# Файлы, которые создаёт сама игра
+megarace_save.txt
+megarace_ghost_*.bin
+MegaRace_photo_*.png
+
+# Своя музыка игрока: папка остаётся, содержимое не выкладываем
+music/*
+!music/README.txt
